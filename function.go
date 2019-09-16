@@ -9,6 +9,6 @@ import (
 //go:generate ./genvers.sh
 
 func F(s string) string {
-	t := c.F(s)
+	t := c.G(s)
 	return fmt.Sprintf("B %s: %s", Version, t)
 }
